@@ -17,7 +17,7 @@ function gotResult(error, results) {
         document.getElementById("voice").innerHTML="I Can Hear - "+results[0].label;
         img=document.getElementById("animalimage");
         if(results[0].label=="Bark"){
-            img.src="download(1).jpeg";
+            img.src="download (1).jpeg";
             dog=dog+1;
         }
         else if(results[0].label=="Meow"){    
